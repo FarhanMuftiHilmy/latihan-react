@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.warna{
+  background-color: paleturquoise;
+  border: 2px blue;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: lem;
+}
+
+.tugas4{
+  background-color: paleturquoise;
+  border: 2px blue;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: lem;
+}

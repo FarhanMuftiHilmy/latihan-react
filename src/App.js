@@ -1,23 +1,17 @@
 import logo from './logo.svg';
+import MyComponent from './component/MyComponent';
 import './App.css';
+import Ppw3 from './Ppw3';
+import Tugas4 from './Tugas4';
+import LifeCycle from './LifeCycle';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Tugas4 />
+    <LifeCycle />
+    <Home />
     </div>
   );
 }
