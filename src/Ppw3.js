@@ -30,3 +30,18 @@ class Ppw3 extends Component{
 }
 
 export default Ppw3;
+
+// contoh functional component
+/*
+import './App.css'
+
+function Ppw3 (props){ 
+    return (
+        <div className="warna">
+            Sekarang kita belajar {props.jenis} {props.warna}
+        </div>
+    )
+}
+
+export default Ppw3;
+*/
