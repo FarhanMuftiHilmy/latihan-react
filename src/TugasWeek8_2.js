@@ -3,6 +3,7 @@ import './App.css'
 
 
 export default class TugasWeek8_2 extends Component {
+        
     constructor(){
         super();
         this.state = {articles: []}
@@ -40,4 +41,43 @@ export default class TugasWeek8_2 extends Component {
             </div>
         );
     }
+
 }
+
+// constructor(){
+    //     super();
+    //     this.state = {movie: "sdfd"}
+    // }
+
+    // componentDidMount(){
+    //     fetch("https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/tt1375666", { 
+    //         "method": "GET", "headers": {
+    //             "x-rapidapi-key": "479b3acf0emshb2cdb6b0017c536p180070jsnf3c0ac36b27c",
+    //             "x-rapidapi-host": "https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/tt1375666"
+    //         }
+    //     })
+    //     .then(response => response.json())
+    //     .then((response) => {
+    //         this.setState({movie: response})
+    //     });
+    // }
+
+    // render(){
+    //     console.log(this.state.movie);
+    //     return(
+    //         <div>
+    //             <h1>{this.state.title}</h1>
+    //             <h2>
+    //                 <span>
+    //                     Tahun Rilis: {this.state.title}, Durasi: {this.state.length}
+    //                 </span>
+    //             </h2>
+    //             <img src={this.state.poster} />
+    //             <p>
+    //                 <strong>Rating: {this.state.rating}</strong>
+    //                 <strong>Votes: {this.state.rating_votes}</strong>
+    //             </p>
+    //             <p><strong>Sinopsis: {this.state.plot}</strong></p>
+    //         </div>
+    //     );
+    // }
